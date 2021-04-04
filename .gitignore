@@ -1,0 +1,10 @@
+\calibration_images
+\calibration_videos
+\face_models
+\training_videos
+
+# .pyc files
+*.pyc
+
+# vscode
+.vscode

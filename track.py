@@ -2,8 +2,8 @@ import argparse
 
 import cv2
 
-from renderer import Display2D
-from keypoints import Frame, match_features
+from display import Display2D
+from keypoints import Frame, FrameMatcher
 
 parser = argparse.ArgumentParser()
 parser.add_argument('video', type=str, help='Video file')
@@ -21,7 +21,7 @@ def main(args):
     FPS = int(capture.get(cv2.CAP_PROP_FPS))
 
     if args.save:
-        writer = cv2.VideoWriter(args.save, cv2.CAP_ANY,
+        writer = cv2.VideoWriter(args.save, cv2.VideoWriter_fourcc(*"mp4v"),
             FPS, (W, H))
 
     if W > 1024:
@@ -37,6 +37,7 @@ def main(args):
         print("Fatal - failed to load video")
         exit(-1)
 
+    matcher = FrameMatcher()
     prevframe = Frame(frame)
     while capture.isOpened():
         ret, frame = capture.read()
@@ -45,15 +46,18 @@ def main(args):
             break
 
         frame = Frame(frame)
-        matches = match_features(frame, prevframe)
-        print('matches:' ,len(matches))
+        if frame.roi is not None and prevframe.roi is not None:
+            matches = matcher(frame, prevframe)
+            print('matches:' ,len(matches))
+        else:
+            print('no ROI')
+
         if not args.headless:
             display2d.paint(cv2.resize(frame.getAnnotated(), (W, H)))
-        
+            
         if args.save:
             writer.write(frame.getAnnotated())
             
-
         prevframe = frame
 
 
