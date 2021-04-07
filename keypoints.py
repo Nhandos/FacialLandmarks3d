@@ -10,12 +10,21 @@ class FaceDetector(object):
     def __init__(self):
         self.face_cascade = \
             cv2.CascadeClassifier('./res/haarcascade_frontalface_alt.xml')
+        self.profile_cascade = \
+            cv2.CascadeClassifier('./res/haarcascade_profileface.xml')
 
-    def __call__(self, image:np.ndarray):
+
+    def __call__(self, image:np.ndarray, profile='front'):
         
         gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-        faces = self.face_cascade.detectMultiScale(gray, 1.3, 5)
+        
+        if profile == 'front':
+            faces = self.face_cascade.detectMultiScale(gray, 1.3, 5)
+        elif profile == 'side':
+            faces = self.profile_cascade.detectMultiScale(gray, 1.3, 5)
+
         if len(faces) == 0:
+            
             return None
 
         return faces[-1]  # todo: return the largest ROI face
@@ -28,7 +37,7 @@ class FeatureExtractor(object):
         if detector == 'ORB':
             self.detector = cv2.ORB_create()
         elif detector == 'SIFT':
-            self.detector = cv2.SIFT_create(
+            self.detector = cv2.xfeatures2d.SIFT_create(
                 nfeatures=0,
                 nOctaveLayers=3,
                 contrastThreshold=0.05,  # 
@@ -55,11 +64,11 @@ class FeatureExtractor(object):
 
         # features detection + extraction 
         pts = cv2.goodFeaturesToTrack(mask, 3000,  
-            qualityLevel=0.00001, minDistance=7, mask=mask)
+            qualityLevel=0.0001, minDistance=7, mask=mask)
         
-        #kps = [cv2.KeyPoint(x=f[0][0], y=f[0][1], _size=20) for f in pts]
-        #kps, des = self.detector.compute(image, kps)
-        kps, des = self.detector.detectAndCompute(mask, None)
+        kps = [cv2.KeyPoint(x=f[0][0], y=f[0][1], _size=20) for f in pts]
+        kps, des = self.detector.compute(image, kps)
+        #kps, des = self.detector.detectAndCompute(mask, None)
 
         return kps, des, mask
 
@@ -81,7 +90,12 @@ class FeatureMatcher(object):
             if m.distance < loweratio * n.distance:
                 good.append([m])
 
-        return good
+
+        src_pts = np.float32([ kp1[m[0].queryIdx].pt for m in good ]).reshape(-1,1,2)
+        dst_pts = np.float32([ kp2[m[0].trainIdx].pt for m in good ]).reshape(-1,1,2)
+        M, mask = cv2.findHomography(src_pts, dst_pts, cv2.RANSAC, 5.0)
+
+        return good, mask 
 
 
 class FrameMatcher(FeatureMatcher):

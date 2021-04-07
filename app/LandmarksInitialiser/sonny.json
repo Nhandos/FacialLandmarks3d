@@ -1,0 +1,1938 @@
+{
+    "FaceModel": {
+        "Source": "Curtin - Vectra H2",
+        "StudyId": "Sonny",
+        "SubjectId": "Sonny",
+        "ImageId": "",
+        "DateOfBirth": "Thu Feb 25 2021",
+        "Sex": "M",
+        "MaternalEthnicity": "0",
+        "PaternalEthnicity": "0",
+        "CaptureDate": "Thu Feb 25 2021",
+        "Mask": {
+            "Hash": "11197318593279303703"
+        },
+        "Assessments": {
+            "DefaultAssessment": "0",
+            "Assessment": {
+                "AssessmentId": "0",
+                "Assessor": "Rich",
+                "Notes": "",
+                "Landmarks": {
+                    "LeftSide": {
+                        "scl": {
+                            "x": "52.3491554",
+                            "y": "37.7603683",
+                            "z": "-17.4887486"
+                        },
+                        "scm": {
+                            "x": "18.1939125",
+                            "y": "38.156601",
+                            "z": "-3.94074202"
+                        },
+                        "zy": {
+                            "x": "73.0920486",
+                            "y": "-1.71062624",
+                            "z": "-73.5029907"
+                        },
+                        "p": {
+                            "x": "33.2215042",
+                            "y": "21.7280235",
+                            "z": "-15.7373304"
+                        },
+                        "pi": {
+                            "x": "33.7451706",
+                            "y": "13.765727",
+                            "z": "-14.7085924"
+                        },
+                        "ps": {
+                            "x": "34.2928429",
+                            "y": "25.0864811",
+                            "z": "-13.7688484"
+                        },
+                        "mso": {
+                            "x": "35.8776245",
+                            "y": "40.6103859",
+                            "z": "-8.74917603"
+                        },
+                        "sbal": {
+                            "x": "8.72884464",
+                            "y": "-28.108223",
+                            "z": "2.89088941"
+                        },
+                        "ac": {
+                            "x": "21.5663395",
+                            "y": "-21.4029961",
+                            "z": "-8.11494064"
+                        },
+                        "al": {
+                            "x": "20.5817509",
+                            "y": "-23.8363247",
+                            "z": "4.53693247"
+                        },
+                        "mio": {
+                            "x": "33.2863884",
+                            "y": "-4.65864229",
+                            "z": "-14.3597116"
+                        },
+                        "ch": {
+                            "x": "27.8425674",
+                            "y": "-54.7745323",
+                            "z": "-9.17942905"
+                        },
+                        "mlfi": {
+                            "x": "12.940238",
+                            "y": "-51.6789398",
+                            "z": "3.98894763"
+                        },
+                        "chk": {
+                            "x": "55.9376907",
+                            "y": "-8.92844868",
+                            "z": "-20.0772591"
+                        },
+                        "go": {
+                            "x": "58.0306396",
+                            "y": "-75.6873627",
+                            "z": "-73.1020813"
+                        },
+                        "mf": {
+                            "x": "8.80920982",
+                            "y": "17.5836811",
+                            "z": "-8.74210835"
+                        },
+                        "cph": {
+                            "x": "8.08317566",
+                            "y": "-39.3686333",
+                            "z": "10.0007086"
+                        },
+                        "mvi": {
+                            "x": "16.3673401",
+                            "y": "-63.1447525",
+                            "z": "4.82282591"
+                        },
+                        "en": {
+                            "x": "18.1377087",
+                            "y": "15.5108929",
+                            "z": "-16.0909424"
+                        },
+                        "mvs": {
+                            "x": "20.601635",
+                            "y": "-44.8170166",
+                            "z": "3.57269359"
+                        },
+                        "lt": {
+                            "x": "68.1969986",
+                            "y": "31.2763081",
+                            "z": "-57.1458969"
+                        },
+                        "ex": {
+                            "x": "47.6697235",
+                            "y": "17.796196",
+                            "z": "-23.1387787"
+                        },
+                        "mmb": {
+                            "x": "36.5671654",
+                            "y": "-89.3985977",
+                            "z": "-39.201622"
+                        },
+                        "ft": {
+                            "x": "62.7922325",
+                            "y": "42.5154037",
+                            "z": "-42.9891281"
+                        },
+                        "mlfs": {
+                            "x": "12.8536825",
+                            "y": "-51.2806435",
+                            "z": "4.0452342"
+                        }
+                    },
+                    "Medial": {
+                        "rh": {
+                            "x": "0.17505461",
+                            "y": "10.3879156",
+                            "z": "3.08650231"
+                        },
+                        "fbs": {
+                            "x": "-0.119460441",
+                            "y": "79.6798248",
+                            "z": "-10.7159672"
+                        },
+                        "sn": {
+                            "x": "-0.433320791",
+                            "y": "-29.2572727",
+                            "z": "5.75445795"
+                        },
+                        "c": {
+                            "x": "-0.374118745",
+                            "y": "-26.5206051",
+                            "z": "15.4904747"
+                        },
+                        "m": {
+                            "x": "-0.356731325",
+                            "y": "61.7144241",
+                            "z": "-8.96585846"
+                        },
+                        "li": {
+                            "x": "-0.27488941",
+                            "y": "-66.5340576",
+                            "z": "11.1103458"
+                        },
+                        "prn": {
+                            "x": "-0.398400277",
+                            "y": "-16.9797344",
+                            "z": "20.124136"
+                        },
+                        "n": {
+                            "x": "0.0992392376",
+                            "y": "24.954916",
+                            "z": "-5.35872173"
+                        },
+                        "mnd": {
+                            "x": "0.12774694",
+                            "y": "2.70541072",
+                            "z": "9.01246166"
+                        },
+                        "g": {
+                            "x": "-0.117215686",
+                            "y": "38.3293648",
+                            "z": "-3.56968522"
+                        },
+                        "spl": {
+                            "x": "-0.495826632",
+                            "y": "-37.079361",
+                            "z": "9.15857315"
+                        },
+                        "gn": {
+                            "x": "-0.799793303",
+                            "y": "-100.14006",
+                            "z": "-16.9165249"
+                        },
+                        "ls": {
+                            "x": "0.487656057",
+                            "y": "-41.4056053",
+                            "z": "12.3025417"
+                        },
+                        "me": {
+                            "x": "-0.582987368",
+                            "y": "-102.91082",
+                            "z": "-32.2476196"
+                        },
+                        "se": {
+                            "x": "0.0785078928",
+                            "y": "23.371294",
+                            "z": "-5.25074387"
+                        },
+                        "pg": {
+                            "x": "-0.612706065",
+                            "y": "-89.9769211",
+                            "z": "-5.91744184"
+                        },
+                        "sts": {
+                            "x": "-0.844997168",
+                            "y": "-50.9984512",
+                            "z": "7.5942173"
+                        },
+                        "sti": {
+                            "x": "-0.816163063",
+                            "y": "-53.5640907",
+                            "z": "8.0398159"
+                        },
+                        "sl": {
+                            "x": "-0.321352243",
+                            "y": "-72.8642349",
+                            "z": "2.35795999"
+                        }
+                    },
+                    "RightSide": {
+                        "scl": {
+                            "x": "-52.048542",
+                            "y": "38.3647346",
+                            "z": "-17.4136868"
+                        },
+                        "scm": {
+                            "x": "-18.6187229",
+                            "y": "38.554142",
+                            "z": "-3.81692481"
+                        },
+                        "zy": {
+                            "x": "-74.4444656",
+                            "y": "-0.481130064",
+                            "z": "-72.7409973"
+                        },
+                        "p": {
+                            "x": "-33.3272591",
+                            "y": "24.0592537",
+                            "z": "-15.6248188"
+                        },
+                        "pi": {
+                            "x": "-34.0419312",
+                            "y": "16.2547951",
+                            "z": "-14.2224045"
+                        },
+                        "ps": {
+                            "x": "-33.5596275",
+                            "y": "27.2016773",
+                            "z": "-13.5256062"
+                        },
+                        "mso": {
+                            "x": "-35.8600349",
+                            "y": "41.5302734",
+                            "z": "-8.21632671"
+                        },
+                        "sbal": {
+                            "x": "-9.2294836",
+                            "y": "-28.1338692",
+                            "z": "2.73315525"
+                        },
+                        "ac": {
+                            "x": "-22.1407833",
+                            "y": "-21.1360073",
+                            "z": "-7.06388378"
+                        },
+                        "al": {
+                            "x": "-21.3902493",
+                            "y": "-23.5943432",
+                            "z": "3.17409801"
+                        },
+                        "mio": {
+                            "x": "-34.8722801",
+                            "y": "-4.77504826",
+                            "z": "-13.4490175"
+                        },
+                        "ch": {
+                            "x": "-30.6254539",
+                            "y": "-54.9183922",
+                            "z": "-9.71916199"
+                        },
+                        "mlfi": {
+                            "x": "-15.466527",
+                            "y": "-52.0514374",
+                            "z": "1.28052735"
+                        },
+                        "chk": {
+                            "x": "-56.643734",
+                            "y": "-8.33349705",
+                            "z": "-18.8445473"
+                        },
+                        "go": {
+                            "x": "-55.7484016",
+                            "y": "-72.1788864",
+                            "z": "-76.5356293"
+                        },
+                        "mf": {
+                            "x": "-8.66772079",
+                            "y": "17.6681137",
+                            "z": "-9.07219601"
+                        },
+                        "cph": {
+                            "x": "-8.42994881",
+                            "y": "-38.817524",
+                            "z": "10.1261425"
+                        },
+                        "mvi": {
+                            "x": "-18.0550289",
+                            "y": "-64.0400925",
+                            "z": "4.38711882"
+                        },
+                        "en": {
+                            "x": "-17.3288555",
+                            "y": "16.4310455",
+                            "z": "-15.0876884"
+                        },
+                        "mvs": {
+                            "x": "-21.2042809",
+                            "y": "-44.1250038",
+                            "z": "4.80495214"
+                        },
+                        "lt": {
+                            "x": "-69.967865",
+                            "y": "31.8203983",
+                            "z": "-56.0455894"
+                        },
+                        "ex": {
+                            "x": "-47.6106339",
+                            "y": "20.9403076",
+                            "z": "-22.3859539"
+                        },
+                        "mmb": {
+                            "x": "-35.7328987",
+                            "y": "-89.6910858",
+                            "z": "-39.5372581"
+                        },
+                        "ft": {
+                            "x": "-64.163063",
+                            "y": "44.0960312",
+                            "z": "-42.8810692"
+                        },
+                        "mlfs": {
+                            "x": "-15.5437832",
+                            "y": "-51.3811798",
+                            "z": "1.64822888"
+                        }
+                    }
+                },
+                "Paths": "",
+                "MetricGroups": {
+                    "Frontal": {
+                        "MetricValue": {
+                            "id": "81",
+                            "name": "Nasal Root Width",
+                            "category": "Distance",
+                            "ndims": "1",
+                            "stats": {
+                                "sex": "Female | Male",
+                                "ethnicity": "Australian Aboriginal",
+                                "source": "Cliniface (2020).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "10.7",
+                                    "stdv": "2.1",
+                                    "value": "17.5",
+                                    "zscore": "3.2"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "105",
+                            "name": "Nasal Protrusion",
+                            "category": "Distance",
+                            "ndims": "1",
+                            "stats": {
+                                "sex": "Male",
+                                "ethnicity": "European",
+                                "source": "Weinberg et al. (2016).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "11.5",
+                                    "stdv": "0.9",
+                                    "value": "18.9",
+                                    "zscore": "8.4"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "46",
+                            "name": "Subnasal Width",
+                            "category": "Distance",
+                            "ndims": "1",
+                            "stats": {
+                                "sex": "Male",
+                                "ethnicity": "European",
+                                "source": "Weinberg et al. (2016).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "13.5",
+                                    "stdv": "1.3",
+                                    "value": "18.0",
+                                    "zscore": "3.4"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "16",
+                            "name": "Facial Height",
+                            "category": "Distance",
+                            "ndims": "1",
+                            "stats": {
+                                "sex": "Male",
+                                "ethnicity": "European",
+                                "source": "Weinberg et al. (2016).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "71.1",
+                                    "stdv": "4.7",
+                                    "value": "125.6",
+                                    "zscore": "11.6"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "49",
+                            "name": "Columella Length",
+                            "category": "Distance",
+                            "ndims": "1",
+                            "stats": {
+                                "sex": "Female | Male",
+                                "ethnicity": "European",
+                                "source": "Farkas (1981).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "2.7",
+                                    "stdv": "8.1",
+                                    "value": "10.1",
+                                    "zscore": "2.2"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "43",
+                            "name": "Upper Lip Height",
+                            "category": "Distance",
+                            "ndims": "1",
+                            "stats": {
+                                "sex": "Male",
+                                "ethnicity": "European",
+                                "source": "Weinberg et al. (2016).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "15.0",
+                                    "stdv": "1.6",
+                                    "value": "21.8",
+                                    "zscore": "4.1"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "47",
+                            "name": "Nasal Width",
+                            "category": "Distance",
+                            "ndims": "1",
+                            "stats": {
+                                "sex": "Male",
+                                "ethnicity": "European",
+                                "source": "Weinberg et al. (2016).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "23.6",
+                                    "stdv": "1.4",
+                                    "value": "42.0",
+                                    "zscore": "13.0"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "39",
+                            "name": "Labial Fissure Width",
+                            "category": "Distance",
+                            "ndims": "1",
+                            "stats": {
+                                "sex": "Male",
+                                "ethnicity": "European",
+                                "source": "Weinberg et al. (2016).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "30.0",
+                                    "stdv": "3.4",
+                                    "value": "58.5",
+                                    "zscore": "8.3"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "1011",
+                            "name": "Inferior Facial Angle C",
+                            "category": "Angle",
+                            "ndims": "1",
+                            "stats": {
+                                "dimension": {
+                                    "axis": "0",
+                                    "value": "40.0"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "8",
+                            "name": "Innercanthal Width",
+                            "category": "Distance",
+                            "ndims": "1",
+                            "stats": {
+                                "sex": "Male",
+                                "ethnicity": "European",
+                                "source": "Weinberg et al. (2016).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "27.1",
+                                    "stdv": "1.6",
+                                    "value": "35.5",
+                                    "zscore": "5.1"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "18",
+                            "name": "Bizygomatic Width",
+                            "category": "Distance",
+                            "ndims": "1",
+                            "stats": {
+                                "sex": "Male",
+                                "ethnicity": "European",
+                                "source": "Weinberg et al. (2016).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "96.29",
+                                    "stdv": "5.20",
+                                    "value": "147.54",
+                                    "zscore": "9.86"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "85",
+                            "name": "Interpupillary Distance",
+                            "category": "Distance",
+                            "ndims": "1",
+                            "stats": {
+                                "sex": "Female | Male",
+                                "ethnicity": "Caucasian",
+                                "source": "Feingold and Bossert (1974).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "38.9",
+                                    "stdv": "3.6",
+                                    "value": "66.6",
+                                    "zscore": "7.7"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "26",
+                            "name": "Mandibular Width",
+                            "category": "Distance",
+                            "ndims": "1",
+                            "stats": {
+                                "sex": "Male",
+                                "ethnicity": "European",
+                                "source": "Weinberg et al. (2016).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "64.5",
+                                    "stdv": "3.5",
+                                    "value": "113.9",
+                                    "zscore": "14.0"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "37",
+                            "name": "Lower Vermilion Height",
+                            "category": "Distance",
+                            "ndims": "1",
+                            "stats": {
+                                "sex": "Male",
+                                "ethnicity": "European",
+                                "source": "Weinberg et al. (2016).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "6.2",
+                                    "stdv": "2.4",
+                                    "value": "13.3",
+                                    "zscore": "2.9"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "28",
+                            "name": "Bifrontal Width",
+                            "category": "Distance",
+                            "ndims": "1",
+                            "stats": {
+                                "sex": "Male",
+                                "ethnicity": "European",
+                                "source": "Weinberg et al. (2016).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "80.4",
+                                    "stdv": "4.8",
+                                    "value": "127.0",
+                                    "zscore": "9.6"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "1010",
+                            "name": "Inferior Facial Angle B",
+                            "category": "Angle",
+                            "ndims": "1",
+                            "stats": {
+                                "dimension": {
+                                    "axis": "0",
+                                    "value": "63.6"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "3016",
+                            "name": "Temples Asymmetry",
+                            "category": "Asymmetry",
+                            "ndims": "4",
+                            "stats": {
+                                "sex": "Male",
+                                "ethnicity": "Australian Aboriginal",
+                                "source": "Cliniface (2020).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "0.5",
+                                    "stdv": "1.4",
+                                    "value": "-1.8",
+                                    "zscore": "-1.6"
+                                },
+                                "dimension": {
+                                    "axis": "1",
+                                    "mean": "-0.1",
+                                    "stdv": "1.2",
+                                    "value": "0.5",
+                                    "zscore": "0.5"
+                                },
+                                "dimension": {
+                                    "axis": "2",
+                                    "mean": "0.2",
+                                    "stdv": "1.4",
+                                    "value": "1.1",
+                                    "zscore": "0.6"
+                                },
+                                "dimension": {
+                                    "axis": "3",
+                                    "mean": "1.4",
+                                    "stdv": "1.2",
+                                    "value": "2.2",
+                                    "zscore": "0.6"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "3003",
+                            "name": "Cheekbone Asymmetry",
+                            "category": "Asymmetry",
+                            "ndims": "4",
+                            "stats": {
+                                "sex": "Male",
+                                "ethnicity": "Australian Aboriginal",
+                                "source": "Cliniface (2020).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "0.4",
+                                    "stdv": "1.8",
+                                    "value": "-0.7",
+                                    "zscore": "-0.6"
+                                },
+                                "dimension": {
+                                    "axis": "1",
+                                    "mean": "0.1",
+                                    "stdv": "1.1",
+                                    "value": "0.6",
+                                    "zscore": "0.4"
+                                },
+                                "dimension": {
+                                    "axis": "2",
+                                    "mean": "-0.2",
+                                    "stdv": "1.5",
+                                    "value": "1.2",
+                                    "zscore": "0.9"
+                                },
+                                "dimension": {
+                                    "axis": "3",
+                                    "mean": "2.0",
+                                    "stdv": "2.1",
+                                    "value": "1.5",
+                                    "zscore": "-0.2"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "1012",
+                            "name": "Inferior Facial Angle D",
+                            "category": "Angle",
+                            "ndims": "1",
+                            "stats": {
+                                "dimension": {
+                                    "axis": "0",
+                                    "value": "54.1"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "3001",
+                            "name": "Bifrontal Asymmetry",
+                            "category": "Asymmetry",
+                            "ndims": "4",
+                            "stats": {
+                                "sex": "Male",
+                                "ethnicity": "Australian Aboriginal",
+                                "source": "Cliniface (2020).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "0.4",
+                                    "stdv": "1.2",
+                                    "value": "-1.4",
+                                    "zscore": "-1.5"
+                                },
+                                "dimension": {
+                                    "axis": "1",
+                                    "mean": "-0.1",
+                                    "stdv": "1.3",
+                                    "value": "1.6",
+                                    "zscore": "1.3"
+                                },
+                                "dimension": {
+                                    "axis": "2",
+                                    "mean": "0.0",
+                                    "stdv": "1.0",
+                                    "value": "0.1",
+                                    "zscore": "0.1"
+                                },
+                                "dimension": {
+                                    "axis": "3",
+                                    "mean": "1.0",
+                                    "stdv": "1.3",
+                                    "value": "2.1",
+                                    "zscore": "0.8"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "2001",
+                            "name": "Philtral Depth",
+                            "category": "Depth",
+                            "ndims": "3",
+                            "stats": {
+                                "sex": "Female | Male",
+                                "ethnicity": "Australian Aboriginal",
+                                "source": "Cliniface (2020).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "0.1",
+                                    "stdv": "1.0",
+                                    "value": "0.7",
+                                    "zscore": "0.7"
+                                },
+                                "dimension": {
+                                    "axis": "1",
+                                    "mean": "0.1",
+                                    "stdv": "1.2",
+                                    "value": "0.9",
+                                    "zscore": "0.6"
+                                },
+                                "dimension": {
+                                    "axis": "2",
+                                    "mean": "0.0",
+                                    "stdv": "0.9",
+                                    "value": "0.3",
+                                    "zscore": "0.4"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "3004",
+                            "name": "Nasal Ala Asymmetry",
+                            "category": "Asymmetry",
+                            "ndims": "4",
+                            "stats": {
+                                "sex": "Male",
+                                "ethnicity": "Australian Aboriginal",
+                                "source": "Cliniface (2020).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "-0.5",
+                                    "stdv": "1.5",
+                                    "value": "-0.6",
+                                    "zscore": "-0.1"
+                                },
+                                "dimension": {
+                                    "axis": "1",
+                                    "mean": "0.2",
+                                    "stdv": "0.8",
+                                    "value": "0.3",
+                                    "zscore": "0.0"
+                                },
+                                "dimension": {
+                                    "axis": "2",
+                                    "mean": "-0.4",
+                                    "stdv": "1.4",
+                                    "value": "1.1",
+                                    "zscore": "1.0"
+                                },
+                                "dimension": {
+                                    "axis": "3",
+                                    "mean": "1.3",
+                                    "stdv": "0.9",
+                                    "value": "1.2",
+                                    "zscore": "0.0"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "3005",
+                            "name": "Nasal Asymmetry",
+                            "category": "Asymmetry",
+                            "ndims": "4",
+                            "stats": {
+                                "sex": "Male",
+                                "ethnicity": "Australian Aboriginal",
+                                "source": "Cliniface (2020).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "-0.1",
+                                    "stdv": "1.3",
+                                    "value": "-0.8",
+                                    "zscore": "-0.5"
+                                },
+                                "dimension": {
+                                    "axis": "1",
+                                    "mean": "0.2",
+                                    "stdv": "0.8",
+                                    "value": "0.2",
+                                    "zscore": "0.0"
+                                },
+                                "dimension": {
+                                    "axis": "2",
+                                    "mean": "0.7",
+                                    "stdv": "1.0",
+                                    "value": "-1.4",
+                                    "zscore": "-2.1"
+                                },
+                                "dimension": {
+                                    "axis": "3",
+                                    "mean": "1.0",
+                                    "stdv": "1.1",
+                                    "value": "1.6",
+                                    "zscore": "0.6"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "1000",
+                            "name": "Upper Lip Circularity",
+                            "category": "Region",
+                            "ndims": "1",
+                            "stats": {
+                                "sex": "Female | Male",
+                                "ethnicity": "Australian Aboriginal",
+                                "source": "Cliniface (2020).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "42.0",
+                                    "stdv": "9.2",
+                                    "value": "39.3",
+                                    "zscore": "-0.3"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "3006",
+                            "name": "Subnasal Asymmetry",
+                            "category": "Asymmetry",
+                            "ndims": "4",
+                            "stats": {
+                                "sex": "Male",
+                                "ethnicity": "Australian Aboriginal",
+                                "source": "Cliniface (2020).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "0.1",
+                                    "stdv": "1.6",
+                                    "value": "-0.5",
+                                    "zscore": "-0.4"
+                                },
+                                "dimension": {
+                                    "axis": "1",
+                                    "mean": "0.2",
+                                    "stdv": "0.6",
+                                    "value": "0.0",
+                                    "zscore": "-0.4"
+                                },
+                                "dimension": {
+                                    "axis": "2",
+                                    "mean": "-0.2",
+                                    "stdv": "1.2",
+                                    "value": "-0.2",
+                                    "zscore": "0.0"
+                                },
+                                "dimension": {
+                                    "axis": "3",
+                                    "mean": "1.1",
+                                    "stdv": "1.3",
+                                    "value": "0.5",
+                                    "zscore": "-0.4"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "3011",
+                            "name": "Outercanthal Asymmetry",
+                            "category": "Asymmetry",
+                            "ndims": "4",
+                            "stats": {
+                                "sex": "Male",
+                                "ethnicity": "Australian Aboriginal",
+                                "source": "Cliniface (2020).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "0.4",
+                                    "stdv": "1.3",
+                                    "value": "0.1",
+                                    "zscore": "-0.2"
+                                },
+                                "dimension": {
+                                    "axis": "1",
+                                    "mean": "-0.7",
+                                    "stdv": "1.9",
+                                    "value": "3.1",
+                                    "zscore": "2.0"
+                                },
+                                "dimension": {
+                                    "axis": "2",
+                                    "mean": "-0.1",
+                                    "stdv": "1.8",
+                                    "value": "0.8",
+                                    "zscore": "0.5"
+                                },
+                                "dimension": {
+                                    "axis": "3",
+                                    "mean": "1.9",
+                                    "stdv": "1.0",
+                                    "value": "3.2",
+                                    "zscore": "1.3"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "1005",
+                            "name": "Nasal Angle",
+                            "category": "Angle",
+                            "ndims": "1",
+                            "stats": {
+                                "sex": "Female | Male",
+                                "ethnicity": "Australian Aboriginal",
+                                "source": "Cliniface (2020).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "132.6",
+                                    "stdv": "7.0",
+                                    "value": "122.8",
+                                    "zscore": "-1.4"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "6",
+                            "name": "Outercanthal Width",
+                            "category": "Distance",
+                            "ndims": "1",
+                            "stats": {
+                                "sex": "Male",
+                                "ethnicity": "European",
+                                "source": "Weinberg et al. (2016).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "70.6",
+                                    "stdv": "3.1",
+                                    "value": "95.3",
+                                    "zscore": "8.1"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "3015",
+                            "name": "Mid-Supraorbital Asymmetry",
+                            "category": "Asymmetry",
+                            "ndims": "4",
+                            "stats": {
+                                "sex": "Female | Male",
+                                "ethnicity": "Australian Aboriginal",
+                                "source": "Cliniface (2020).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "-0.1",
+                                    "stdv": "1.5",
+                                    "value": "0.0",
+                                    "zscore": "0.1"
+                                },
+                                "dimension": {
+                                    "axis": "1",
+                                    "mean": "0.1",
+                                    "stdv": "1.4",
+                                    "value": "0.9",
+                                    "zscore": "0.6"
+                                },
+                                "dimension": {
+                                    "axis": "2",
+                                    "mean": "0.2",
+                                    "stdv": "0.9",
+                                    "value": "0.5",
+                                    "zscore": "0.3"
+                                },
+                                "dimension": {
+                                    "axis": "3",
+                                    "mean": "1.1",
+                                    "stdv": "1.3",
+                                    "value": "1.1",
+                                    "zscore": "0.0"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "1009",
+                            "name": "Inferior Facial Angle A",
+                            "category": "Angle",
+                            "ndims": "1",
+                            "stats": {
+                                "dimension": {
+                                    "axis": "0",
+                                    "value": "50.2"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "59",
+                            "name": "Nasal Bridge Length",
+                            "category": "Distance",
+                            "ndims": "1",
+                            "stats": {
+                                "sex": "Male",
+                                "ethnicity": "European",
+                                "source": "Weinberg et al. (2016).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "27.2",
+                                    "stdv": "2.9",
+                                    "value": "49.1",
+                                    "zscore": "7.5"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "3009",
+                            "name": "Labial Fissure Asymmetry",
+                            "category": "Asymmetry",
+                            "ndims": "4",
+                            "stats": {
+                                "sex": "Male",
+                                "ethnicity": "Australian Aboriginal",
+                                "source": "Cliniface (2020).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "0.4",
+                                    "stdv": "2.5",
+                                    "value": "-2.8",
+                                    "zscore": "-1.3"
+                                },
+                                "dimension": {
+                                    "axis": "1",
+                                    "mean": "-0.3",
+                                    "stdv": "1.9",
+                                    "value": "-0.1",
+                                    "zscore": "0.1"
+                                },
+                                "dimension": {
+                                    "axis": "2",
+                                    "mean": "0.0",
+                                    "stdv": "1.9",
+                                    "value": "-0.5",
+                                    "zscore": "-0.3"
+                                },
+                                "dimension": {
+                                    "axis": "3",
+                                    "mean": "2.2",
+                                    "stdv": "2.0",
+                                    "value": "2.8",
+                                    "zscore": "0.3"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "3014",
+                            "name": "Mid-Infraorbital Asymmetry",
+                            "category": "Asymmetry",
+                            "ndims": "4",
+                            "stats": {
+                                "sex": "Male",
+                                "ethnicity": "Australian Aboriginal",
+                                "source": "Cliniface (2020).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "0.1",
+                                    "stdv": "1.5",
+                                    "value": "-1.6",
+                                    "zscore": "-1.1"
+                                },
+                                "dimension": {
+                                    "axis": "1",
+                                    "mean": "0.0",
+                                    "stdv": "1.3",
+                                    "value": "-0.1",
+                                    "zscore": "-0.1"
+                                },
+                                "dimension": {
+                                    "axis": "2",
+                                    "mean": "0.3",
+                                    "stdv": "1.4",
+                                    "value": "0.9",
+                                    "zscore": "0.5"
+                                },
+                                "dimension": {
+                                    "axis": "3",
+                                    "mean": "1.5",
+                                    "stdv": "1.2",
+                                    "value": "1.8",
+                                    "zscore": "0.3"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "1008",
+                            "name": "Nasolabial Angle D",
+                            "category": "Angle",
+                            "ndims": "1",
+                            "stats": {
+                                "sex": "Female | Male",
+                                "ethnicity": "Australian Aboriginal",
+                                "source": "Cliniface (2020).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "132.4",
+                                    "stdv": "7.5",
+                                    "value": "124.6",
+                                    "zscore": "-1.0"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "1002",
+                            "name": "Cutaneous Lower Lip Height",
+                            "category": "Distance",
+                            "ndims": "1",
+                            "stats": {
+                                "sex": "Male",
+                                "ethnicity": "European",
+                                "source": "Weinberg et al. (2016).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "6.3",
+                                    "stdv": "1.3",
+                                    "value": "10.8",
+                                    "zscore": "3.6"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "3008",
+                            "name": "Philtral Asymmetry",
+                            "category": "Asymmetry",
+                            "ndims": "4",
+                            "stats": {
+                                "sex": "Female | Male",
+                                "ethnicity": "Australian Aboriginal",
+                                "source": "Cliniface (2020).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "0.1",
+                                    "stdv": "1.8",
+                                    "value": "-0.3",
+                                    "zscore": "-0.2"
+                                },
+                                "dimension": {
+                                    "axis": "1",
+                                    "mean": "0.0",
+                                    "stdv": "0.5",
+                                    "value": "0.6",
+                                    "zscore": "1.2"
+                                },
+                                "dimension": {
+                                    "axis": "2",
+                                    "mean": "0.2",
+                                    "stdv": "0.6",
+                                    "value": "0.1",
+                                    "zscore": "-0.1"
+                                },
+                                "dimension": {
+                                    "axis": "3",
+                                    "mean": "1.3",
+                                    "stdv": "1.1",
+                                    "value": "0.7",
+                                    "zscore": "-0.6"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "3013",
+                            "name": "Mid-Mandibular Asymmetry",
+                            "category": "Asymmetry",
+                            "ndims": "4",
+                            "stats": {
+                                "sex": "Female | Male",
+                                "ethnicity": "Australian Aboriginal",
+                                "source": "Cliniface (2020).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "0.2",
+                                    "stdv": "1.2",
+                                    "value": "0.8",
+                                    "zscore": "0.6"
+                                },
+                                "dimension": {
+                                    "axis": "1",
+                                    "mean": "0.1",
+                                    "stdv": "0.9",
+                                    "value": "-0.3",
+                                    "zscore": "-0.4"
+                                },
+                                "dimension": {
+                                    "axis": "2",
+                                    "mean": "0.2",
+                                    "stdv": "1.0",
+                                    "value": "-0.3",
+                                    "zscore": "-0.5"
+                                },
+                                "dimension": {
+                                    "axis": "3",
+                                    "mean": "1.1",
+                                    "stdv": "1.1",
+                                    "value": "0.9",
+                                    "zscore": "-0.2"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "1007",
+                            "name": "Total Facial Convexity",
+                            "category": "Angle",
+                            "ndims": "1",
+                            "stats": {
+                                "sex": "Female | Male",
+                                "ethnicity": "Australian Aboriginal",
+                                "source": "Cliniface (2020).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "149.9",
+                                    "stdv": "6.0",
+                                    "value": "137.2",
+                                    "zscore": "-2.1"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "103",
+                            "name": "Facial Convexity",
+                            "category": "Angle",
+                            "ndims": "1",
+                            "stats": {
+                                "sex": "Male",
+                                "ethnicity": "Caucasian",
+                                "source": "Bergman et al. (2014).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "168.0",
+                                    "stdv": "3.5",
+                                    "value": "161.3",
+                                    "zscore": "-1.9"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "44",
+                            "name": "Upper Vermilion Height",
+                            "category": "Distance",
+                            "ndims": "1",
+                            "stats": {
+                                "sex": "Male",
+                                "ethnicity": "European",
+                                "source": "Weinberg et al. (2016).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "6.4",
+                                    "stdv": "1.7",
+                                    "value": "10.8",
+                                    "zscore": "2.6"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "3007",
+                            "name": "Nasal Root Asymmetry",
+                            "category": "Asymmetry",
+                            "ndims": "4",
+                            "stats": {
+                                "sex": "Female | Male",
+                                "ethnicity": "Australian Aboriginal",
+                                "source": "Cliniface (2020).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "0.0",
+                                    "stdv": "1.0",
+                                    "value": "0.1",
+                                    "zscore": "0.2"
+                                },
+                                "dimension": {
+                                    "axis": "1",
+                                    "mean": "-0.1",
+                                    "stdv": "0.4",
+                                    "value": "0.1",
+                                    "zscore": "0.4"
+                                },
+                                "dimension": {
+                                    "axis": "2",
+                                    "mean": "0.2",
+                                    "stdv": "0.8",
+                                    "value": "-0.3",
+                                    "zscore": "-0.7"
+                                },
+                                "dimension": {
+                                    "axis": "3",
+                                    "mean": "0.7",
+                                    "stdv": "0.7",
+                                    "value": "0.4",
+                                    "zscore": "-0.5"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "1001",
+                            "name": "Outer Canthal, Nasal Angle",
+                            "category": "Angle",
+                            "ndims": "1",
+                            "stats": {
+                                "sex": "Female | Male",
+                                "ethnicity": "Caucasian",
+                                "source": "Patton (1987) in Gripp et al. (2013).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "114.4",
+                                    "stdv": "5.3",
+                                    "value": "-88.9",
+                                    "zscore": "-34.8"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "3002",
+                            "name": "Bizygomatic Asymmetry",
+                            "category": "Asymmetry",
+                            "ndims": "4",
+                            "stats": {
+                                "sex": "Male",
+                                "ethnicity": "Australian Aboriginal",
+                                "source": "Cliniface (2020).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "1.0",
+                                    "stdv": "1.6",
+                                    "value": "-1.4",
+                                    "zscore": "-1.4"
+                                },
+                                "dimension": {
+                                    "axis": "1",
+                                    "mean": "0.2",
+                                    "stdv": "1.4",
+                                    "value": "1.2",
+                                    "zscore": "0.7"
+                                },
+                                "dimension": {
+                                    "axis": "2",
+                                    "mean": "-0.4",
+                                    "stdv": "2.0",
+                                    "value": "0.8",
+                                    "zscore": "0.6"
+                                },
+                                "dimension": {
+                                    "axis": "3",
+                                    "mean": "1.3",
+                                    "stdv": "1.8",
+                                    "value": "2.0",
+                                    "zscore": "0.4"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "1004",
+                            "name": "Nasofrontal Angle",
+                            "category": "Angle",
+                            "ndims": "1",
+                            "stats": {
+                                "sex": "Male",
+                                "ethnicity": "Australian Aboriginal",
+                                "source": "Cliniface (2020).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "146.8",
+                                    "stdv": "10.5",
+                                    "value": "141.1",
+                                    "zscore": "-0.5"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "3010",
+                            "name": "Innercanthal Asymmetry",
+                            "category": "Asymmetry",
+                            "ndims": "4",
+                            "stats": {
+                                "sex": "Female | Male",
+                                "ethnicity": "Australian Aboriginal",
+                                "source": "Cliniface (2020).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "0.6",
+                                    "stdv": "1.2",
+                                    "value": "0.8",
+                                    "zscore": "0.2"
+                                },
+                                "dimension": {
+                                    "axis": "1",
+                                    "mean": "0.1",
+                                    "stdv": "1.0",
+                                    "value": "0.9",
+                                    "zscore": "0.8"
+                                },
+                                "dimension": {
+                                    "axis": "2",
+                                    "mean": "0.0",
+                                    "stdv": "1.3",
+                                    "value": "1.0",
+                                    "zscore": "0.8"
+                                },
+                                "dimension": {
+                                    "axis": "3",
+                                    "mean": "1.6",
+                                    "stdv": "1.0",
+                                    "value": "1.6",
+                                    "zscore": "-0.1"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "60",
+                            "name": "Nasal Height",
+                            "category": "Distance",
+                            "ndims": "1",
+                            "stats": {
+                                "sex": "Male",
+                                "ethnicity": "European",
+                                "source": "Weinberg et al. (2016).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "36.1",
+                                    "stdv": "3.2",
+                                    "value": "55.3",
+                                    "zscore": "6.0"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "89",
+                            "name": "Mandibular Contour",
+                            "category": "Angle",
+                            "ndims": "1",
+                            "stats": {
+                                "sex": "Female | Male",
+                                "ethnicity": "Australian Aboriginal",
+                                "source": "Cliniface (2020).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "-127.9",
+                                    "stdv": "7.0",
+                                    "value": "-126.0",
+                                    "zscore": "0.3"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "40",
+                            "name": "Philtral Width",
+                            "category": "Distance",
+                            "ndims": "1",
+                            "stats": {
+                                "sex": "Male",
+                                "ethnicity": "European",
+                                "source": "Weinberg et al. (2016).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "7.6",
+                                    "stdv": "1.3",
+                                    "value": "16.5",
+                                    "zscore": "7.2"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "1006",
+                            "name": "Nasolabial Angle A",
+                            "category": "Angle",
+                            "ndims": "1",
+                            "stats": {
+                                "sex": "Male",
+                                "ethnicity": "Caucasian",
+                                "source": "Bergman et al. (2014).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "107.7",
+                                    "stdv": "6.7",
+                                    "value": "77.4",
+                                    "zscore": "-4.5"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "3012",
+                            "name": "Mandibular Asymmetry",
+                            "category": "Asymmetry",
+                            "ndims": "4",
+                            "stats": {
+                                "sex": "Female | Male",
+                                "ethnicity": "Australian Aboriginal",
+                                "source": "Cliniface (2020).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "0.4",
+                                    "stdv": "1.4",
+                                    "value": "2.3",
+                                    "zscore": "1.4"
+                                },
+                                "dimension": {
+                                    "axis": "1",
+                                    "mean": "0.3",
+                                    "stdv": "1.0",
+                                    "value": "3.5",
+                                    "zscore": "3.1"
+                                },
+                                "dimension": {
+                                    "axis": "2",
+                                    "mean": "0.2",
+                                    "stdv": "1.6",
+                                    "value": "-3.4",
+                                    "zscore": "-2.3"
+                                },
+                                "dimension": {
+                                    "axis": "3",
+                                    "mean": "1.8",
+                                    "stdv": "1.3",
+                                    "value": "5.4",
+                                    "zscore": "2.7"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "38",
+                            "name": "Philtral Length",
+                            "category": "Distance",
+                            "ndims": "1",
+                            "stats": {
+                                "sex": "Male",
+                                "ethnicity": "European",
+                                "source": "Weinberg et al. (2016).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "10.4",
+                                    "stdv": "1.7",
+                                    "value": "13.8",
+                                    "zscore": "2.0"
+                                }
+                            }
+                        }
+                    },
+                    "LeftLateral": {
+                        "MetricValue": {
+                            "id": "86",
+                            "name": "Palpebral Fissure Inclination",
+                            "category": "Angle",
+                            "ndims": "1",
+                            "stats": {
+                                "sex": "Male",
+                                "ethnicity": "Australian Aboriginal",
+                                "source": "Cliniface (2020).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "-1.6",
+                                    "stdv": "3.5",
+                                    "value": "-4.4",
+                                    "zscore": "-0.8"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "87",
+                            "name": "Palpebral Fissure Height",
+                            "category": "Distance",
+                            "ndims": "1",
+                            "stats": {
+                                "sex": "Male",
+                                "ethnicity": "Australian Aboriginal",
+                                "source": "Cliniface (2020).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "10.2",
+                                    "stdv": "1.7",
+                                    "value": "11.4",
+                                    "zscore": "0.7"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "10",
+                            "name": "Palpebral Fissure Length",
+                            "category": "Distance",
+                            "ndims": "1",
+                            "stats": {
+                                "sex": "Male",
+                                "ethnicity": "Northern European",
+                                "source": "Stromland et al. (1999).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "19.3",
+                                    "stdv": "1.0",
+                                    "value": "30.4",
+                                    "zscore": "11.6"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "1003",
+                            "name": "Nasal Ala Length",
+                            "category": "Distance",
+                            "ndims": "1",
+                            "stats": {
+                                "sex": "Male",
+                                "ethnicity": "European",
+                                "source": "Weinberg et al. (2016).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "13.7",
+                                    "stdv": "0.7",
+                                    "value": "36.0",
+                                    "zscore": "33.8"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "2002",
+                            "name": "Orbital Protrusion",
+                            "category": "Depth",
+                            "ndims": "1",
+                            "stats": {
+                                "sex": "Male",
+                                "ethnicity": "Australian Aboriginal",
+                                "source": "Cliniface (2020).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "12.1",
+                                    "stdv": "2.9",
+                                    "value": "17.3",
+                                    "zscore": "1.8"
+                                }
+                            }
+                        }
+                    },
+                    "RightLateral": {
+                        "MetricValue": {
+                            "id": "86",
+                            "name": "Palpebral Fissure Inclination",
+                            "category": "Angle",
+                            "ndims": "1",
+                            "stats": {
+                                "sex": "Male",
+                                "ethnicity": "Australian Aboriginal",
+                                "source": "Cliniface (2020).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "-1.6",
+                                    "stdv": "3.5",
+                                    "value": "-8.5",
+                                    "zscore": "-2.0"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "87",
+                            "name": "Palpebral Fissure Height",
+                            "category": "Distance",
+                            "ndims": "1",
+                            "stats": {
+                                "sex": "Male",
+                                "ethnicity": "Australian Aboriginal",
+                                "source": "Cliniface (2020).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "10.2",
+                                    "stdv": "1.7",
+                                    "value": "11.0",
+                                    "zscore": "0.5"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "10",
+                            "name": "Palpebral Fissure Length",
+                            "category": "Distance",
+                            "ndims": "1",
+                            "stats": {
+                                "sex": "Male",
+                                "ethnicity": "Northern European",
+                                "source": "Stromland et al. (1999).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "19.3",
+                                    "stdv": "1.0",
+                                    "value": "31.5",
+                                    "zscore": "12.7"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "1003",
+                            "name": "Nasal Ala Length",
+                            "category": "Distance",
+                            "ndims": "1",
+                            "stats": {
+                                "sex": "Male",
+                                "ethnicity": "European",
+                                "source": "Weinberg et al. (2016).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "13.7",
+                                    "stdv": "0.7",
+                                    "value": "35.1",
+                                    "zscore": "32.3"
+                                }
+                            }
+                        },
+                        "MetricValue": {
+                            "id": "2002",
+                            "name": "Orbital Protrusion",
+                            "category": "Depth",
+                            "ndims": "1",
+                            "stats": {
+                                "sex": "Male",
+                                "ethnicity": "Australian Aboriginal",
+                                "source": "Cliniface (2020).",
+                                "dimension": {
+                                    "axis": "0",
+                                    "mean": "12.1",
+                                    "stdv": "2.9",
+                                    "value": "16.8",
+                                    "zscore": "1.6"
+                                }
+                            }
+                        }
+                    }
+                },
+                "HPO_Terms": {
+                    "Term": {
+                        "ID": "HP:0000448",
+                        "Name": "Nose, Prominent",
+                        "Metrics": "105",
+                        "AgeMatch": "false",
+                        "SexMatch": "true",
+                        "MaternalEthnicityMatch": "false",
+                        "PaternalEthnicityMatch": "false"
+                    },
+                    "Term": {
+                        "ID": "HP:0012802",
+                        "Name": "Jaw, Wide",
+                        "Metrics": "26",
+                        "AgeMatch": "false",
+                        "SexMatch": "true",
+                        "MaternalEthnicityMatch": "false",
+                        "PaternalEthnicityMatch": "false"
+                    },
+                    "Term": {
+                        "ID": "HP:0000179",
+                        "Name": "Lower Lip Vermilion, Thick",
+                        "Metrics": "37",
+                        "AgeMatch": "false",
+                        "SexMatch": "true",
+                        "MaternalEthnicityMatch": "false",
+                        "PaternalEthnicityMatch": "false"
+                    },
+                    "Term": {
+                        "ID": "HP:0000316",
+                        "Name": "Hypertelorism",
+                        "Metrics": "8,85",
+                        "AgeMatch": "false",
+                        "SexMatch": "false",
+                        "MaternalEthnicityMatch": "false",
+                        "PaternalEthnicityMatch": "false"
+                    },
+                    "Term": {
+                        "ID": "HP:0011341",
+                        "Name": "Upper Lip, Long",
+                        "Metrics": "43",
+                        "AgeMatch": "false",
+                        "SexMatch": "true",
+                        "MaternalEthnicityMatch": "false",
+                        "PaternalEthnicityMatch": "false"
+                    },
+                    "Term": {
+                        "ID": "HP:0000321",
+                        "Name": "Face, Square",
+                        "Metrics": "16,18,26",
+                        "AgeMatch": "false",
+                        "SexMatch": "true",
+                        "MaternalEthnicityMatch": "false",
+                        "PaternalEthnicityMatch": "false"
+                    },
+                    "Term": {
+                        "ID": "HP:0000445",
+                        "Name": "Nose, Wide",
+                        "Metrics": "46,47",
+                        "AgeMatch": "false",
+                        "SexMatch": "true",
+                        "MaternalEthnicityMatch": "false",
+                        "PaternalEthnicityMatch": "false"
+                    },
+                    "Term": {
+                        "ID": "HP:0000215",
+                        "Name": "Upper Lip Vermilion, Thick",
+                        "Metrics": "44",
+                        "AgeMatch": "false",
+                        "SexMatch": "true",
+                        "MaternalEthnicityMatch": "false",
+                        "PaternalEthnicityMatch": "false"
+                    },
+                    "Term": {
+                        "ID": "HP:0000154",
+                        "Name": "Mouth, Wide",
+                        "Metrics": "39",
+                        "AgeMatch": "false",
+                        "SexMatch": "true",
+                        "MaternalEthnicityMatch": "false",
+                        "PaternalEthnicityMatch": "false"
+                    },
+                    "Term": {
+                        "ID": "HP:0000337",
+                        "Name": "Forehead, Broad",
+                        "Metrics": "28",
+                        "AgeMatch": "false",
+                        "SexMatch": "true",
+                        "MaternalEthnicityMatch": "false",
+                        "PaternalEthnicityMatch": "false"
+                    },
+                    "Term": {
+                        "ID": "HP:0000431",
+                        "Name": "Nasal Bridge, Wide",
+                        "Metrics": "8,47",
+                        "AgeMatch": "false",
+                        "SexMatch": "true",
+                        "MaternalEthnicityMatch": "false",
+                        "PaternalEthnicityMatch": "false"
+                    },
+                    "Term": {
+                        "ID": "HP:0003189",
+                        "Name": "Nose, Long",
+                        "Metrics": "59,60",
+                        "AgeMatch": "false",
+                        "SexMatch": "true",
+                        "MaternalEthnicityMatch": "false",
+                        "PaternalEthnicityMatch": "false"
+                    },
+                    "Term": {
+                        "ID": "HP:0000289",
+                        "Name": "Philtrum, Broad",
+                        "Metrics": "40",
+                        "AgeMatch": "false",
+                        "SexMatch": "true",
+                        "MaternalEthnicityMatch": "false",
+                        "PaternalEthnicityMatch": "false"
+                    },
+                    "Term": {
+                        "ID": "HP:0000637",
+                        "Name": "Palpebral Fissures, Long",
+                        "Metrics": "10",
+                        "AgeMatch": "false",
+                        "SexMatch": "true",
+                        "MaternalEthnicityMatch": "false",
+                        "PaternalEthnicityMatch": "false"
+                    }
+                }
+            }
+        }
+    }
+}

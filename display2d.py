@@ -29,12 +29,6 @@ class Display2D(object):
         pygame.display.flip()
 
 
-class Display3D(QtGui.QWindow):
-
-    def __init__(self):
-        pass
-
-
 if __name__ == '__main__':
     
    # capture = cv2.VideoCapture(os.path.basename('videos/test_countryroad.mp4'))

@@ -2,15 +2,14 @@
 import argparse
 from typing import Iterable
 
+import pygame
 import librosa
 import librosa.display
 from moviepy.audio.AudioClip import AudioClip
 import moviepy.editor as mp
 from moviepy.video.io.ffmpeg_tools import ffmpeg_extract_subclip
 from matplotlib import pyplot as plt
-import numpy as np
-import pygame
-from scipy.signal import butter, filtfilt, find_peaks
+import numpy as np from scipy.signal import butter, filtfilt, find_peaks
 from scipy.fft import fft, fftfreq
 
 parser = argparse.ArgumentParser()
@@ -21,15 +20,13 @@ parser.add_argument('--output', type=str, default=None,
 parser.add_argument('--visualise', action='store_true', default=False,
     help='Show visualisations')
 
-class UserInterface(object):
 
-    @classmethod
-    def inputDigit(self, prompt):
-        n = input(prompt)
-        while not n.isdigit():
-            n = input('Please enter a digit: ')
-        
-        n = int(n)
+def parse_input(prompt):
+    n = input(prompt)
+    while not n.isdigit():
+        n = input('Please enter a digit: ')
+    
+    n = int(n)
 
 
 class AudioProcessing(object):
@@ -60,7 +57,6 @@ class AudioProcessing(object):
         return times
 
     def plot_onsets(self, peaks):
-        plt.figure()
         mono = librosa.to_mono(self.waveform.T)
         librosa.display.waveplot(mono, self.fs)
         plt.plot(peaks, np.zeros(peaks.shape), 'ro')
@@ -88,6 +84,25 @@ class AudioProcessing(object):
         plt.colorbar(img, format="%+2.f dB")
 
 
+class VideoSyncGUI(tk.Frame):
+
+    def __init__(self, parent, *args, **kwargs):
+        super().__init__(parent, *args, **kwargs)
+        self.parent = parent
+        self.mainfig = Figure(figsize=(5, 4), dpi=100)
+
+        self.canvas = FigureCanvasTkAgg(self.mainfig, master=self)  # A tk.DrawingArea.
+        self.canvas.draw()
+        self.canvas.get_tk_widget().pack(side=tk.TOP, fill=tk.BOTH, expand=1)
+
+        self.toolbar = NavigationToolbar2Tk(self.canvas, self)
+        self.toolbar.update()
+        self.canvas.get_tk_widget().pack(side=tk.TOP, fill=tk.BOTH, expand=1)
+
+    def update(self):
+        self.canvas.update()
+
+
 def sync_videos(videofile, visualise=False, output='output.mov'):
 
     clip = mp.VideoFileClip(videofile)
@@ -96,14 +111,12 @@ def sync_videos(videofile, visualise=False, output='output.mov'):
     audio = AudioProcessing(waveform, fs, clip.fps)
     bandpass = audio.filter((3700, 4000), btype='bandpass', order=7)
 
+    # plot onsets from bandpass 
+    mono = 
+
     peaks = bandpass.detect_onsets()
-    if visualise:
-        bandpass.plot_onsets(peaks)
-        plt.show()
-    
-    n1 = UserInterface.inputDigit('Select peak1 to extract from')
-    n2 = UserInterface.inputDigit('Select peak2 to extract to. Input -1 to  \
-        extract crop to end of video')
+    n1 = parse_input('Select start peak: ')
+    n2 = parse_input('Select end peak (-1 for EOF): ')
     
     if n1 >= len(peaks):
         print(f'error - peak {n1} does not exists')
@@ -129,3 +142,9 @@ def sync_videos(videofile, visualise=False, output='output.mov'):
 if __name__ == '__main__':
     args = parser.parse_args()
     sync_videos(args.videofile, visualise=args.visualise, output=args.output)
+
+    # GUI
+    root = tk.Tk()
+    VideoSyncGUI(root).pack(side="top", fill="both", expand=True)
+    root.mainloop()
+
